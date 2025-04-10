@@ -3,6 +3,8 @@ import React from "react";
 import logo from "./assets/IMAGE (24).png";
 import aside from "./assets/Frame (14).png"
 import logoSocial from "./assets/Frame (15).png"
+import input from './assets/Frame (16).png'
+import social from './assets/Frame (17).png'
 
 const App = () => {
   return React.createElement(
@@ -174,12 +176,12 @@ const App = () => {
           <h1>Subscribe to our newsletter</h1>
           <h1>Read about all the things we do.</h1>
         </aside>
-        <img src="/src/assets/Frame (16).png" />
+        <img src={input} />
       </article>
       <hr className="hr" />
       <aside className="foot">
         <p>© Aperture Photography, Inc. All rights reserved. Licensing .</p>
-        <img src="/src/assets/Frame (17).png" />
+        <img src={social} />
       </aside>
     </footer>
     )
