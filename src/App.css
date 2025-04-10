@@ -1,0 +1,345 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+header {
+  max-width: 100%;
+  margin: auto;
+  background-color: black;
+}
+nav {
+  max-width: 1600px;
+  margin: auto;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+ul {
+  font-size: 20px;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+.header{
+  display: flex;
+  align-items: center;
+  gap: 50px ;
+}
+.btnHead {
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.firstSection {
+  background-image: url('./assets/Frame (13).png');
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: end;
+}
+.photoP {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #C0C0C0;
+}
+h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  color: white;
+}
+.SectionP {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #C0C0C0;
+  margin-bottom: 100px;
+}
+.sectionTwoH {
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 70px;
+}
+.secondSectionP {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #C0C0C0;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.secondSection {
+  max-width: 1600px;
+  margin: auto;
+}
+.ProductContent {
+  background-color: aquamarine;
+  width: 42%;
+  height: 560px;
+  padding: 40px;
+  background-image: url('./assets/IMAGE (25).png');
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  flex-direction: column;
+}
+.praductH {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  margin-bottom: 15px;
+}
+.productP {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #C0C0C0;
+  line-height: 30px;
+}
+.productButton {
+  padding: 8px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+}
+.forProduct {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 70px;
+  margin-bottom: 100px;
+}
+.ProductContent2 {
+  background-color: aquamarine;
+  width: 42%;
+  height: 560px;
+  padding: 40px;
+  background-image: url('./assets/IMAGE (28).png');
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  flex-direction: column;
+}
+.ProductContent3 {
+  background-color: aquamarine;
+  width: 42%;
+  height: 560px;
+  padding: 40px;
+  background-image: url('./assets/IMAGE (26).png');
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  flex-direction: column;
+}
+.ProductContent4 {
+  background-color: aquamarine;
+  width: 42%;
+  height: 560px;
+  padding: 40px;
+  background-image: url('./assets/IMAGE (27).png');
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  flex-direction: column;
+}
+.fourthSection {
+  background-image: url('./assets/backroundImg.png');
+  background-size: cover;
+  max-width: 1900px;
+  height: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: start;
+  padding: 20px;
+}
+.fourthH {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+}
+.fourthP {
+  font-size: 25px;
+  color: rgba(192, 192, 192, 1);
+  font-family: sans-serif;
+  line-height: 30px;
+}
+.fifthSection {
+  background-color: black;
+  height: 800px;
+  max-width: 1900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.imageAside {
+  width: 50%;
+  height: 800px;
+}
+.theGearCage {
+  font-size: 20px;
+  color: #C0C0C0;
+  font-family: sans-serif;
+}
+.fifthH {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+  padding: 10px 0px;
+}
+.fifthP {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 15px;
+}
+.fifthAside {
+  width: 45%;
+  padding: 0px 120px;
+}
+.fifthBtn {
+  font-size: 17px;
+  padding: 8px 15px;
+  background-color: white; 
+  font-weight: bold;
+  border-radius: 10px;
+}
+.sixthSection {
+  background-image: url('./assets/IMAGE (29).png');
+  background-size: cover;
+  max-width: 1900px;
+  height: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: start;
+  padding: 20px;
+}
+.seventhSection {
+  max-width: 1900px;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+}
+.seventhH {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 100px;
+}
+.seventhP {
+  font-size: 20px;
+  color: #C0C0C0;
+  font-family: sans-serif;
+  word-spacing: 5px;
+  margin-bottom: 100px;
+}
+.eightSection {
+  background-image: url('./assets/IMAGE (30).png');
+  background-size: cover;
+  max-width: 1900px;
+  height: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  text-align: start;
+  padding: 20px;
+}
+.ninthSection {
+  max-width: 1900px;
+  margin: auto;
+  height: 400px;
+  text-align: center;
+  padding-top: 150px;
+}
+.ninthH {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 100;
+}
+.ninthP {
+  font-size: 25px;
+  padding: 10px 0px; 
+  color: #C0C0C0;
+  font-family: sans-serif;
+}
+.ninthBtn {
+  font-size: 18px;
+  padding: 8px 20px;
+  border-radius: 15px;
+}
+footer {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot_logo {
+  line-height: 50px;
+  color: #C0C0C0;
+}
+
+.list {
+  width: 35%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  line-height: 30px;
+}
+
+.ss {
+  color: #C0C0C0;
+}
+
+.hr {
+  margin: 35px 0px;
+}
+
+.sub {
+  width: 650px;
+  line-height: 40px;
+}
+
+.sub h1 {
+  font-size: 15px;
+  color: #C0C0C0;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #C0C0C0;
+  padding-bottom: 100px;
+}
+li {
+  font-family: sans-serif;
+}
